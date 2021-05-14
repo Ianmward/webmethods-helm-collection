@@ -3,9 +3,9 @@ entries:
   microservices-runtime:
   - apiVersion: v2
     appVersion: 10.5.0.0
-    created: "2021-05-14T16:39:43.688099+10:00"
+    created: "2021-05-14T16:42:28.804762+10:00"
     description: A Helm chart for Kubernetes
-    digest: f73caf66d1e4f63cb41b94d94cc8be709b4632d07516355c38e39f756ac0e338
+    digest: bd0ae718adc042563f7266b4bc5cfb11421b2e618fc802559ad2deec3d07be21
     name: microservices-runtime
     type: application
     urls:
@@ -14,7 +14,17 @@ entries:
   universal-messaging:
   - apiVersion: v2
     appVersion: 10.5.0.4
-    created: "2021-05-14T16:39:43.689356+10:00"
+    created: "2021-05-14T16:42:28.806337+10:00"
+    description: A Helm chart for Kubernetes
+    digest: 9ff654cd4070865c4f74b2a934b2244a6f586b1e0e1d4bf91ec601c86452b8f3
+    name: universal-messaging
+    type: application
+    urls:
+    - https://Ianmward.github.io/webmethods-helm-collection/charts-repo/incubator/universal-messaging-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 10.5.0.4
+    created: "2021-05-14T16:42:28.805432+10:00"
     description: A Helm chart for Kubernetes
     digest: 21cb187ccb339db1f0e035d35f6a502a1bc871926b96a26d419041b1fbabb947
     name: universal-messaging
@@ -22,14 +32,4 @@ entries:
     urls:
     - https://Ianmward.github.io/webmethods-helm-collection/charts-repo/incubator/universal-messaging-0.1.0.tgz
     version: 0.1.0
-  - apiVersion: v2
-    appVersion: 10.5.0.4
-    created: "2021-05-14T16:39:43.691132+10:00"
-    description: A Helm chart for Kubernetes
-    digest: 34fd09d4985cd568abfb68384799a96b9cd36209bf4bf3e67133e23a8ccd549a
-    name: universal-messaging
-    type: application
-    urls:
-    - https://Ianmward.github.io/webmethods-helm-collection/charts-repo/incubator/universal-messaging-0.1.1.tgz
-    version: 0.1.0
-generated: "2021-05-14T16:39:43.685177+10:00"
+generated: "2021-05-14T16:42:28.803498+10:00"
