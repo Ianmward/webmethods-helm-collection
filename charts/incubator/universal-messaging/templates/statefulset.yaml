@@ -134,15 +134,15 @@ spec:
         {{- toYaml . | nindent 8 }}
     {{- end }}
       volumes:
-#      - name: configuration
-#        persistentVolumeClaim:
-#          claimName: {{ include "universal-messaging.fullname" . }}-configuration
-#      - name: logs
-#        persistentVolumeClaim:
-#          claimName: {{ include "universal-messaging.fullname" . }}-logs
-#      - name: data
-#        persistentVolumeClaim:
-#          claimName: {{ include "universal-messaging.fullname" . }}-data
+      - name: configuration
+        persistentVolumeClaim:
+          claimName: {{ include "universal-messaging.fullname" . }}-configuration
+      - name: logs
+        persistentVolumeClaim:
+          claimName: {{ include "universal-messaging.fullname" . }}-logs
+      - name: data
+        persistentVolumeClaim:
+          claimName: {{ include "universal-messaging.fullname" . }}-data
       - name: external-files
         configMap:
           name: {{ include "universal-messaging.fullname" . }}-external-files-config-map
